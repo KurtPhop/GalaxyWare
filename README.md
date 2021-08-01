@@ -4,10 +4,10 @@ GalaxyWare cheat Valorant - https://galaxyware.pro/
 ## Screenshots
 
 <p align="center">
-  <img src="https://prnt.sc/1i1uevk" width="20%">
-  <img src="https://prnt.sc/1i1uiji" width="20%">
-  <img src="https://prnt.sc/1i1uqj5" width="20%">
-  <img src="https://prnt.sc/1i1wxzg" width="20%">
+  <img src="screenshop/1.png" width="20%">
+  <img src="screenshop/2.png" width="20%">
+  <img src="screenshop/3.png" width="20%">
+  <img src="screenshop/4.png" width="20%">
 </p>
 
 ## Built With
