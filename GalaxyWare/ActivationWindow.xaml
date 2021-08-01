@@ -1,0 +1,120 @@
+<Window
+	x:Class="GalaxyWare.ActivationWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:GalaxyWare"
+	Title="GalaxyWare"
+	Height="441"
+	Width="700"
+	ResizeMode="NoResize"
+	WindowStartupLocation="CenterScreen"
+	WindowStyle="None"
+	Foreground="#FF000000"
+	AllowsTransparency="True"
+	MouseDown="Window_MouseDown"
+	Loaded="Window_Loaded">
+	<Control.Background>
+		<ImageBrush
+			ImageSource="Resources/Images/Background.png" />
+	</Control.Background>
+	<Grid>
+		<Image
+			Name="Hide"
+			HorizontalAlignment="Left"
+			Height="20"
+			Margin="620,28,0,0"
+			VerticalAlignment="Top"
+			Width="20"
+			Source="Resources/Images/Icon hide.png"
+			MouseDown="Hide_MouseDown" />
+		<Image
+			Name="Close"
+			HorizontalAlignment="Left"
+			Height="20"
+			Margin="652,28,0,0"
+			VerticalAlignment="Top"
+			Width="20"
+			Source="Resources/Images/Icon close.png"
+			MouseDown="Close_MouseDown" />
+		<Image
+			HorizontalAlignment="Center"
+			Height="68"
+			Margin="317,55,303,0"
+			VerticalAlignment="Top"
+			Width="80"
+			Source="Resources/Images/Logo.png" />
+		<TextBlock
+			HorizontalAlignment="Left"
+			Margin="0,128,0,0"
+			TextWrapping="Wrap"
+			Text="GALAXY"
+			VerticalAlignment="Top"
+			Height="43"
+			Width="373"
+			Foreground="#FFFFFFFF"
+			FontFamily="Proxima Nova Black"
+			FontWeight="Bold"
+			FontSize="36"
+			TextAlignment="Right"
+			RenderTransformOrigin="0.5,0.5" />
+		<TextBlock
+			HorizontalAlignment="Right"
+			Margin="0,128,0,0"
+			TextWrapping="Wrap"
+			Text="WARE"
+			VerticalAlignment="Top"
+			Height="43"
+			Width="327"
+			Foreground="#FF7122D1"
+			FontFamily="Proxima Nova Black"
+			FontWeight="Bold"
+			FontSize="36"
+			RenderTransformOrigin="0.5,0.5" />
+		<TextBlock
+			Name="StatusText"
+			HorizontalAlignment="Left"
+			Margin="0,191,0,0"
+			TextWrapping="Wrap"
+			Text="ПРОВЕРКА КЛЮЧА АКТИВАЦИИ"
+			VerticalAlignment="Top"
+			Height="43"
+			Width="700"
+			Foreground="#FFFFFFFF"
+			FontFamily="Proxima Nova Black"
+			FontSize="36"
+			TextAlignment="Center"
+			RenderTransformOrigin="0.5,0.5" />
+		<TextBox
+			Name="TextBoxKey"
+			HorizontalAlignment="Center"
+			Height="58"
+			Margin="61,269,59,0"
+			TextWrapping="Wrap"
+			Text="ВВЕДИТЕ КОД ДОСТУПА"
+			VerticalAlignment="Top"
+			Width="580"
+			HorizontalContentAlignment="Center"
+			VerticalContentAlignment="Center"
+			Foreground="#FF716884"
+			FontFamily="Proxima Nova Semibold"
+			FontSize="16"
+			BorderThickness="0"
+			CaretBrush="#FFFFFFFF"
+			BorderBrush="{x:Null}"
+			GotFocus="TextBoxKey_GotFocus"
+			LostFocus="TextBoxKey_LostFocus">
+			<Control.Background>
+				<ImageBrush
+					ImageSource="Resources/Images/Background input.png" />
+			</Control.Background>
+		</TextBox>
+		<Image
+			Name="ButtonActivate"
+			Style="{DynamicResource ButtonPrimary}"
+			Height="61"
+			Margin="60,327,0,0"
+			VerticalAlignment="Top"
+			HorizontalAlignment="Left"
+			Width="581"
+			Source="Resources/Images/Button activate.png"
+			IsEnabled="False"
+			MouseDown="ButtonActivate_MouseDown" />
+	</Grid>
+</Window>

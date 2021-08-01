@@ -1,0 +1,15 @@
+C:\Users\root\Downloads\2\GalaxyWare\bin\Debug\GalaxyWare.exe
+C:\Users\root\Downloads\2\GalaxyWare\bin\Debug\GalaxyWare.pdb
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare.csproj.AssemblyReference.cache
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\ActivationWindow.g.cs
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\UpdaterWindow.g.cs
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\App.g.cs
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare_MarkupCompile.cache
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare_MarkupCompile.lref
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\App.baml
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\ActivationWindow.baml
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\UpdaterWindow.baml
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare.g.resources
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare.csproj.CoreCompileInputs.cache
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare.exe
+C:\Users\root\Downloads\2\GalaxyWare\obj\Debug\GalaxyWare.pdb
